@@ -1,0 +1,25 @@
+@media (min-width: 48em) {
+    .sidebar {
+        width: 19.1rem;
+    }
+}
+
+.sidebar-about h1 {
+  margin-bottom: 1.2rem;
+  font-size: 2.5rem;
+}
+
+.sidebar-nav
+{
+    margin-bottom: 1rem;
+}
+
+.sidebar-nav-item
+{
+    display: inline;
+}
+
+.sidebar-nav-break
+{
+    height: .9rem;
+}

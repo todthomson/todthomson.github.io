@@ -1,15 +1,12 @@
 # Dependencies
-markdown: kramdown # redcarpet
-highlighter: rouge # pygments
+markdown: kramdown # or redcarpet
+highlighter: rouge # or pygments
 
 # Permalinks
 permalink: pretty
 relative_permalinks: true
 
 # Setup
-title: Blog
-tagline: 'Tod Thomson'
-description: 'Senior Developer @ <a href="http://readify.net" target="_blank">Readify</a>, Pragmatic Programmer, Software Craftsman, Technologist, Magic Player...'
 url: http://c0ntinuum.github.io
 baseurl: /
 author:
@@ -18,6 +15,8 @@ author:
 paginate: 5
 
 # Custom Variables
-version: 0.0.1
-github:
-  repo: https://github.com/c0ntinuum
+
+
+twitter: todthomson
+github:  c0ntinuum
+
