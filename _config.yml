@@ -1,13 +1,23 @@
-# Site settings
-title: Tod Thomson's Blog
-email: todthomson@me.com
-description: > # this means to ignore newlines until "baseurl:"
-  Senior Developer @ Readify (http://readify.net) Pragmatic Programmer, Software Craftsman, Technologist, Magic Player...
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://c0ntinuum.github.io" # the base hostname & protocol for your site
-twitter_username: todthomson
-github_username:  c0ntinuum
+# Dependencies
+markdown: kramdown # redcarpet
+highlighter: rouge # pygments
 
-# Build settings
-markdown: kramdown
-highlighter: pygments
+# Permalinks
+permalink: pretty
+relative_permalinks: true
+
+# Setup
+title: Blog
+tagline: 'Tod Thomson'
+description: 'Senior Developer @ <a href="http://readify.net" target="_blank">Readify</a>, Pragmatic Programmer, Software Craftsman, Technologist, Magic Player...'
+url: http://c0ntinuum.github.io
+baseurl: /
+author:
+  name: 'Tod Thomson'
+  url:  https://twitter.com/todthomson
+paginate: 5
+
+# Custom Variables
+version: 0.0.1
+github:
+  repo: https://github.com/c0ntinuum
