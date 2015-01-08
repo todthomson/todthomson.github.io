@@ -7,7 +7,7 @@
 
 @media (min-width: 48em) {
   .sidebar {
-    width: 19.1rem;
+    width: 19.2rem;
   }
 }
 
@@ -24,8 +24,22 @@
   display: inline;
 }
 
-.sidebar-nav-break {
-  height: .9rem;
+.sidebar-nav-links {
+  margin-bottom: 4.2rem;
+  margin-top: 1.25rem;
+}
+
+.sidebar-nav-links a {
+  float: left;
+  margin-right: 1.4rem;
+}
+
+.sidebar-nav-links a img {
+  margin-bottom: 0;
+}
+
+.copyright {
+  clear: both;
 }
 
 .version {

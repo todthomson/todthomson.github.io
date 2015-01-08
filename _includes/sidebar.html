@@ -29,18 +29,20 @@
                     {% endif %}
                 {% endif %}
             {% endfor %}
-            <div class="sidebar-nav-break"></div>
-            <a class="sidebar-nav-item" target="_blank" href="https://github.com/c0ntinuum">GitHub</a>
-            <br />
-            <a class="sidebar-nav-item" target="_blank" href="https://stackoverflow.com/users/372666/tod-thomson">Stack Overflow</a>
-            <br />
-            <a class="sidebar-nav-item" target="_blank" href="https://twitter.com/todthomson">Twitter</a>
+            <div class="sidebar-nav-links">
+                <a target="_blank" href="https://github.com/c0ntinuum"><img src="{{ site.baseurl }}public/images/github.png" alt="GitHub" /></a>
+                <a target="_blank" href="https://stackoverflow.com/users/372666/tod-thomson"><img src="{{ site.baseurl }}public/images/stack-overflow.png" alt="Stack Overflow" /></a>
+                <a target="_blank" href="https://au.linkedin.com/in/todthomson/"><img src="{{ site.baseurl }}public/images/linked-in.png" alt="Linked In" /></a>
+                <a target="_blank" href="https://twitter.com/todthomson"><img src="{{ site.baseurl }}public/images/twitter.png" alt="Twitter" /></a>
+                <a target="_blank" href="https://www.facebook.com/todthomson"><img src="{{ site.baseurl }}public/images/facebook.png" alt="Facebook" /></a>
+
+            </div>
         </nav>
-        <p>
-        	Copyright &copy; {{ site.time | date: '%Y' }} Tod Thomson
-        	<br />
-        	Based on <a target="_blank" href="http://hyde.getpoole.com">Hyde</a>
-        	by <a target="_blank" href="https://twitter.com/mdo">@mdo</a>
+        <p class="copyright">
+            Copyright &copy; {{ site.time | date: '%Y' }} Tod Thomson
+            <br />
+            Theme based on <a target="_blank" href="http://hyde.getpoole.com">Hyde</a>
+            by <a target="_blank" href="https://twitter.com/mdo">@mdo</a>
         </p>
         <p class="version">Version: {{ site.github.build_revision }}</p>
     </div>
