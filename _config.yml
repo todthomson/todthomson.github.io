@@ -8,6 +8,18 @@ relative_permalinks: true
 
 # Setup
 title: "Tod Thomson's Blog"
+
 url: http://c0ntinuum.github.io
 baseurl: /
 paginate: 5
+
+
+# KRAP
+tagline: TAGLINE
+description: DESCRIPTION
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+version: 0.0.1
+github:
+  repo: https://github.com/c0ntinuum
