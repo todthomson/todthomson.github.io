@@ -10,7 +10,7 @@ relative_permalinks: true
 title: "Tod Thomson's Blog"
 tagline: 'TAGLINE'
 description: 'DESCRIPTION'
-url: http://c0ntinuum.github.io
+url: http://todthomson.com
 baseurl: /
 
 author:
