@@ -9,14 +9,4 @@ relative_permalinks: true
 # Setup
 url: http://c0ntinuum.github.io
 baseurl: /
-author:
-  name: 'Tod Thomson'
-  url:  https://twitter.com/todthomson
 paginate: 5
-
-# Custom Variables
-
-
-twitter: todthomson
-github:  c0ntinuum
-
