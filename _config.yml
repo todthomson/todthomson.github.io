@@ -1,6 +1,6 @@
 # Dependencies
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments # need to switch to rouge when github pages supports it
 
 # Permalinks
 permalink: pretty
