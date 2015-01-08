@@ -1,0 +1,13 @@
+# Site settings
+title: Tod Thomson's Blog
+email: tod@todthomson.com
+description: > # this means to ignore newlines until "baseurl:"
+  Senior Developer @ Readify (http://readify.net) Pragmatic Programmer, Software Craftsman, Technologist, Magic Player...
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://todthomson.com" # the base hostname & protocol for your site
+twitter_username: todthomson
+github_username:  c0ntinuum
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
