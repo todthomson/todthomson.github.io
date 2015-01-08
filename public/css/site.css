@@ -2,39 +2,39 @@
 /* Side Bar */
 
 .sidebar {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 @media (min-width: 48em) {
-    .sidebar {
-        width: 19.1rem;
-    }
+        .sidebar {
+                width: 19.1rem;
+        }
 }
 
 .sidebar-about h1 {
-  margin-bottom: 1.2rem;
-  font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+    font-size: 2.5rem;
 }
 
 .sidebar-nav {
-    margin-bottom: 1rem;
+        margin-bottom: 1rem;
 }
 
 .sidebar-nav-item {
-    display: inline;
+        display: inline;
 }
 
 .sidebar-nav-break {
-    height: .9rem;
+        height: .9rem;
 }
 
 /* Body Content */ 
 
 .content {
-  padding-top: 2.5rem;
-  padding-bottom: .5rem;
+    padding-top: 2.5rem;
+    padding-bottom: .5rem;
 }
 
 .pagination {
-    margin-top: -.5rem;
+        margin-top: -.5rem;
 }

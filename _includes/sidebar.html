@@ -1,38 +1,38 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>{{ site.title }}</h1>
-      <p class="lead">Senior Developer @ <a href="http://readify.net" target="_blank">Readify</a></p>
-      <p class="description">
-        Pragmatic Programmer<br />
-        Software Craftsman<br />
-        Technologist<br />
-        Magic Player
-      </p>
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <h1>{{ site.title }}</h1>
+            <p class="lead">Senior Developer @ <a href="http://readify.net" target="_blank">Readify</a></p>
+            <p class="description">
+                Pragmatic Programmer<br />
+                Software Craftsman<br />
+                Technologist<br />
+                Magic Player
+            </p>
+        </div>
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a><br />
+            {% comment %}
+                The code below dynamically generates a sidebar nav of pages with
+                `layout: page` in the front-matter. See readme for usage.
+            {% endcomment %}
+            {% assign pages_list = site.pages %}
+            {% for node in pages_list %}
+                {% if node.title != null %}
+                    {% if node.layout == "page" %}
+                        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a><br />
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            <div class="sidebar-nav-break"></div>
+            <a class="sidebar-nav-item" target="_blank" href="https://github.com/c0ntinuum">GitHub</a><br />
+            <a class="sidebar-nav-item" target="_blank" href="https://stackoverflow.com/users/372666/tod-thomson">Stack Overflow</a><br />
+            <a class="sidebar-nav-item" target="_blank" href="https://twitter.com/todthomson">Twitter</a>
+        </nav>
+        <p>
+        	Copyright &copy; {{ site.time | date: '%Y' }} Tod Thomson<br />
+        	Theme based on <a target="_blank" href="http://hyde.getpoole.com">Hyde</a>
+        	by <a target="_blank" href="https://twitter.com/mdo">@mdo</a>
+        </p>
     </div>
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a><br />
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a><br />
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      <div class="sidebar-nav-break"></div>
-      <a class="sidebar-nav-item" target="_blank" href="https://github.com/c0ntinuum">GitHub</a><br />
-      <a class="sidebar-nav-item" target="_blank" href="https://stackoverflow.com/users/372666/tod-thomson">Stack Overflow</a><br />
-      <a class="sidebar-nav-item" target="_blank" href="https://twitter.com/todthomson">Twitter</a>
-    </nav>
-    <p>&copy; 2014&ndash;{{ site.time | date: '%Y' }} Tod Thomson</p>
-  </div>
 </div>
-
-
-
-
