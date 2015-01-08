@@ -1,3 +1,10 @@
+
+/* Side Bar */
+
+.sidebar {
+  padding: 1rem;
+}
+
 @media (min-width: 48em) {
     .sidebar {
         width: 19.1rem;
@@ -9,17 +16,25 @@
   font-size: 2.5rem;
 }
 
-.sidebar-nav
-{
+.sidebar-nav {
     margin-bottom: 1rem;
 }
 
-.sidebar-nav-item
-{
+.sidebar-nav-item {
     display: inline;
 }
 
-.sidebar-nav-break
-{
+.sidebar-nav-break {
     height: .9rem;
+}
+
+/* Body Content */ 
+
+.content {
+  padding-top: 2.5rem;
+  padding-bottom: .5rem;
+}
+
+.pagination {
+    margin-top: -.5rem;
 }
