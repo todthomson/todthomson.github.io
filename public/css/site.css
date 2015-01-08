@@ -13,6 +13,8 @@
 
 .avatar {
   display: none;
+  max-height: 304px;
+  max-width: 304px;
 }
 
 @media (min-height: 860px) {
@@ -57,20 +59,18 @@
 }
 
 .sidebar-nav-links {
-  margin-bottom: 4.2rem;
   margin-top: 1.25rem;
   text-align: center;
 }
 
 .sidebar-nav-links a {
-  float: left;
-  margin-right: 1rem;
+  display: inline-block;
+  margin-right: .8rem;
 }
 
 @media (min-width: 58em) {
   .sidebar-nav-links a {
-    float: left;
-    margin-right: 1.4rem;
+    margin-right: 1.2rem;
   }
 }
 
