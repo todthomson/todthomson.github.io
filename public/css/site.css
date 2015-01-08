@@ -11,9 +11,41 @@
   }
 }
 
+.avatar {
+  display: none;
+}
+
+@media (min-height: 860px) {
+  .avatar {
+    display: inherit;
+    height: 128px;
+    margin: 1rem;
+    width: 128px;
+  }
+}
+
+@media (min-height: 1040px) {
+  .avatar {
+    height: auto;
+    margin: 0;
+    padding: 1rem;
+    width: auto;
+  }
+}
+
 .sidebar-about h1 {
   margin-bottom: 1.2rem;
-  font-size: 2.5rem;
+  font-size: 2.15rem;
+}
+
+.description {
+  display: none;
+}
+
+@media (min-height: 695px) {
+  .description {
+    display: inherit;
+  }
 }
 
 .sidebar-nav {
@@ -27,11 +59,19 @@
 .sidebar-nav-links {
   margin-bottom: 4.2rem;
   margin-top: 1.25rem;
+  text-align: center;
 }
 
 .sidebar-nav-links a {
   float: left;
-  margin-right: 1.4rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 58em) {
+  .sidebar-nav-links a {
+    float: left;
+    margin-right: 1.4rem;
+  }
 }
 
 .sidebar-nav-links a img {
