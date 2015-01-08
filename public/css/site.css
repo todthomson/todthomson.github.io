@@ -28,6 +28,11 @@
   height: .9rem;
 }
 
+.version {
+  font-size: 12px;
+  margin-bottom: .75rem;
+}
+
 /* Body Content */ 
 
 .content {
