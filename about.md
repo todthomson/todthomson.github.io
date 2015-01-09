@@ -21,5 +21,5 @@ and you love to code then you should
 Have questions or suggestions? Feel free to
 [email me at tod@todthomson.com](mailto:tod@todthomson.com)
 or
-[ask me on Twitter](https://twitter.com/mdo).
-Thanks for reading!
+[ask me on Twitter](https://twitter.com/todthomson).
+Thanks for reading! :D
