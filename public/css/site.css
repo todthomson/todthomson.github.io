@@ -11,22 +11,32 @@
   }
 }
 
+.avatar-wrapper {
+  text-align: center;
+}
+
 .avatar {
   display: none;
   max-height: 304px;
   max-width: 304px;
 }
 
+@media (min-width: 48rem) {
+  .avatar-wrapper {
+    text-align: left;
+  }
+}
+
 @media (min-height: 860px) {
   .avatar {
-    display: inherit;
+    display: inline-block;
     height: 128px;
     margin: 1rem;
     width: 128px;
   }
 }
 
-@media (min-height: 1040px) {
+@media (min-height: 1040px) and (min-width: 58rem) {
   .avatar {
     height: auto;
     width: auto;
@@ -78,7 +88,13 @@
 
 .sidebar-nav-links a img {
   margin-bottom: 0;
-  padding: 3px;
+  padding: 2px;
+}
+
+@media (min-width: 58em) {
+  .sidebar-nav-links a img {
+    padding: 3px;
+  }
 }
 
 .copyright {
