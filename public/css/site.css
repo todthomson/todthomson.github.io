@@ -49,7 +49,7 @@
 }
 
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-bottom: .65rem;
 }
 
 .sidebar-nav-item {
@@ -57,7 +57,7 @@
 }
 
 .sidebar-nav-links {
-  margin-top: 1.25rem;
+  margin-top: .9rem;
   text-align: center;
 }
 
@@ -66,14 +66,19 @@
   margin-right: .8rem;
 }
 
+.sidebar-nav-links a:hover {
+  background-color: #505050;
+}
+
 @media (min-width: 58em) {
   .sidebar-nav-links a {
-    margin-right: 1.2rem;
+    margin-right: .8rem;
   }
 }
 
 .sidebar-nav-links a img {
   margin-bottom: 0;
+  padding: 4px;
 }
 
 .copyright {
