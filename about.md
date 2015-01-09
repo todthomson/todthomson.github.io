@@ -4,7 +4,7 @@ title: About Me
 ---
 
 <p class="message">
-    I am a software developer living in sunny Brisbane, Australia who you will often find designing and implementating web-standards-based web applications in HTML, CSS and JS with back-ends in C#, ASP.NET MVC and WebAPI.
+    I am a software developer living in sunny Brisbane, Australia who you will often find designing and implementing web-standards-based web applications in HTML, CSS and JS with back-ends in C#, ASP.NET MVC and WebAPI.
 </p>
 
 I'm currently working as a Senior Developer with the amazing crew at
