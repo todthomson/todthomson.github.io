@@ -39,11 +39,15 @@
             </div>
         </nav>
         <p class="copyright">
-            Copyright &copy; {{ site.time | date: '%Y' }} Tod Thomson
+            &copy; {{ site.time | date: '%Y' }} Tod Thomson            
+        </p>
+        <p class="version">
+            Powered by <a target="_blank" href="http://jekyllrb.com/">Jekyll</a>
             <br />
             Theme based on <a target="_blank" href="http://hyde.getpoole.com">Hyde</a>
             by <a target="_blank" href="https://twitter.com/mdo">@mdo</a>
+            <br />
+            Version {{ site.github.build_revision }}
         </p>
-        <p class="version">Version: {{ site.github.build_revision }}</p>
     </div>
 </div>
