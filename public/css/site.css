@@ -87,8 +87,10 @@
 }
 
 .sidebar-nav-links a img {
+  height: 32px;
   margin-bottom: 0;
   padding: 2px;
+  width: 32px;
 }
 
 @media (min-width: 58em) {
