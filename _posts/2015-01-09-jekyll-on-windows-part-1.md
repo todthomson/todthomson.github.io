@@ -11,9 +11,7 @@ in which you can author your content in
 and host your site in
 [GitHub Pages](https://pages.github.com).
 
-<del>
-  [Windows](http://windows.microsoft.com) is the penultimate operating system tour de force.
-</del>
+[Windows](http://windows.microsoft.com) is the penultimate operating system tour de force.
 
 <div class="message">
   Whoa! That's great <em>Tod</em> but you're way ahead of yourself as is usual for you...
