@@ -137,3 +137,16 @@
 .post {
   /* text-align: justify; */
 }
+
+blockquote {
+  background-color: #FCFCFC;
+  padding: .7rem 1.25rem .9rem 1.25rem;
+}
+
+blockquote code {
+  background-color: #DDDDDD;
+}
+
+img {
+  margin: .5rem 0;
+}
