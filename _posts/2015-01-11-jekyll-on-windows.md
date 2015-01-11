@@ -18,6 +18,8 @@ and host your site in
 
 So maybe I got a little ahead of myself there so let's go back to the beginning.
 
+> If you don't care about my rationale [jump straight to](#installing-prerequisites) the installation guide.
+
 ## History
 
 I've been telling myself for the better part of ten years that I _need_ to have a blog.
@@ -32,12 +34,14 @@ Because
 [it](http://zedshaw.com)
 (and have been for ten years now).
 
-But in all seriousness I told myself "Tod, you absolutely must":
+I told myself "Tod, you absolutely must":
 
 <div style="text-align: center;">
   <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/blog-all-the-things.jpg"
        alt="BLOG ALL THE THINGS" />
 </div>
+
+And I might have something interesting to say one day and nowhere to say it.
 
 ## Selecting a Blogging Engine
 
@@ -99,11 +103,11 @@ It's designed to generate a static site.
 You can host for free on _GitHub Pages_.
 
 3. _Must allow me to design (or modify) my own theme._<br />
-There are loads of [themes](http://jekyllthemes.org) that you can easily modify to suit your requirements.
+There are [themes](http://jekyllthemes.org) that you can easily modify to suit your requirements.
 
 4. _Must be able to "backup" and "track changes" to posts._<br />
 Everything required to generate the static pages is plain text (no databases) and
-it is simple to commit to a [git](http://git-scm.com) repository and push that to [GitHub](https://github.com).
+it is simple to commit to a [Git](http://git-scm.com) repository and push that to [GitHub](https://github.com).
 
 5. _Must provide feed-software integration._<br />
 Generates an ```atom.xml``` file in the root directory conforming to the
@@ -113,7 +117,7 @@ which is a good choice for syndicating your blog to readers.
 6. _Must provide social media integration._<br />
 I found a simple guide to [Twitter](https://twitter.com) and [Disqus](https://disqus.com/) integration
 [here](http://joshualande.com/jekyll-github-pages-poole/) and Jekyll
-has heaps of [plugins](http://jekyllrb.com/docs/plugins/) that extend it's functionality in interesting ways.
+has [plugins](http://jekyllrb.com/docs/plugins/) that extend it's functionality in interesting ways.
 
 7. _Must be able to forward-date posts for future release._<br />
 Jekyll has the concept of working with [drafts](http://jekyllrb.com/docs/drafts/)
@@ -130,7 +134,7 @@ I assume a reasonable proficiency with computers here so if you get into trouble
 or
 [ask me on Twitter](https://twitter.com/todthomson).
 
-> What follows is heavily inspired by Julian Thilo's [guide](http://jekyll-windows.juthilo.com).
+> What follows is heavily sourced from Julian Thilo's [guide](http://jekyll-windows.juthilo.com).
 
 ### Git and GitHub (for Windows)
 
@@ -151,7 +155,7 @@ for your scripts then you will need to download and install [Node.js](http://nod
 as Jekyll will use Node.js to compile your ```.coffee``` script files.
 If you don't want CoffeeScript support then you can skip this step.
 
-> Make sure to add Node.js to you [path](http://en.wikipedia.org/wiki/PATH_%28variable%29).
+> If you use Node.js make sure to add it to your _[path](http://en.wikipedia.org/wiki/PATH_%28variable%29)_.
 
 ### Python and Pygments
 
@@ -161,9 +165,9 @@ to use [Pygments](http://pygments.org) the [Python](https://www.python.org) gene
 which is included "out of the box" on GitHub Pages.
 
 1. [Download](https://www.python.org/downloads/) and install Python 2.7.x
-(make sure to add python to your PATH as part of the installation).
+(make sure to add python to your _path_ as part of the installation).
 
-2. Open a new command prompt (so you will get Python in your PATH) and run
+2. Open a new command prompt (so you will get Python in your _path_) and run
 ```python -m pip install Pygments``` which will install the syntax highlighter.
 
 > Do not use Python 3.x as it is known not to work with Pygments.
@@ -209,7 +213,7 @@ To avoid problems down the road we are going to confirm that all the prerequisit
 
 > Here we will use _Git Shell_ ([MINGW32](http://en.wikipedia.org/wiki/MinGW)) that comes with _GitHub for Windows_ providing the
 ```which``` command.
-If you don't have something that provides ```which``` you won't be able to complete these steps.
+If you don't have something that provides the ```which``` command you won't be able to complete these steps.
 
 1. Open (or close and reopen) _Git Shell_.
 
@@ -263,7 +267,7 @@ a basic Jekyll site for you.
        alt="Jekyll Build Output" />
 </div>
 
-> There is a known issue with Pygments (0.6.0) on Windows producing the warning
+> There is a known issue with Pygments > 0.5.0 on Windows producing the warning
 > ```cannot close fd before spawn``` which can safely be ignored.
 
 ### Don't ignore errors... Fix them! :D
