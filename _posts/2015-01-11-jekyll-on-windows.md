@@ -18,11 +18,11 @@ and host your site in
 
 So maybe I got a little ahead of myself there so let's go back to the beginning.
 
-> If you don't care about my rationale [jump straight to](#installing-prerequisites) the installation guide.
+> If you like you can [jump straight to](#installing-prerequisites) the installation guide.
 
 ## History
 
-I've been telling myself for the better part of ten years that I _need_ to have a blog.
+I've been telling myself for the better part of ten years that I **need** to have a blog.
 Why?
 Because
 [all](http://www.hanselman.com)
@@ -34,7 +34,7 @@ Because
 [it](http://zedshaw.com)
 (and have been for ten years now).
 
-I told myself "Tod, you absolutely must":
+I told myself "Tod, you absolutely must!".
 
 <div style="text-align: center;">
   <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/blog-all-the-things.jpg"
@@ -51,20 +51,20 @@ One maxim I find myself coming back to repeatedly is:
 > List your requirements in order of priority and then draw a line under the
 > [Minimum Viable Product](http://en.wikipedia.org/wiki/Minimum_viable_product).
 > Once you know what your <abbr title="Minimum Viable Product">MVP</abbr> is plan the most pragmatic solution you can
-> (keeping in mind the things under the line).
+> while keeping in mind the things under the line.
 
 So because I know I should
 [dog food](http://en.wikipedia.org/wiki/Eating_your_own_dog_food)
-my own advice here are the list of requirements I came up with:
+my own advice here are my requirements.
 
 1. _Must generate a static site._<br />
-I don't see the point of a webapp for static content.
+I don't see the point in hosting a web application for a static site.
 
 2. _Must be able to host for free._<br />
-What can I say? I'm a cheapskate.
+What can I say? I'm a cheapskate!
 
 3. _Must allow me to design (or modify) my own theme._<br />
-I'm web developer after all so I want to be able to show what I can do.
+I'm a web developer (after all) so I want to be able to show what I can do.
 
 4. _Must be able to "backup" and "track changes" to posts._<br />
 I'd really hate to loose anything and I want to be able to revert back.
@@ -81,18 +81,18 @@ I want to be able to release on a regular schedule.
 ### Options Considered
 
 Based on this list and considering my technological comfort and appetite for disruption (which you should always do)
-here is a list of some of the blogging engines I considered:
+here is a list of some of the blogging engines I considered.
 
-- [Ghost](https://ghost.org) built on [Node.js](http://nodejs.org)
+- _[Ghost](https://ghost.org)_ built on [Node.js](http://nodejs.org)
 the result of a [Kickstarter](https://www.kickstarter.com) I was watching.
 It has a great [WYSIWYG](http://en.wikipedia.org/wiki/WYSIWYG) blog authoring tool which is compelling.
 You can host yourself "for free" or you can pay for [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service) hosting.
 
-- [Medium](https://medium.com) a blog-publishing platform that blurs the lines between regular blogging and
+- _[Medium](https://medium.com)_ a blog-publishing platform that blurs the lines between regular blogging and
 [social journalism](http://en.wikipedia.org/wiki/Social_journalism).
 
-- [Snow](https://github.com/Sandra/Sandra.Snow) a Jekyll inspired static site generation tool
-which was recommended by my colleague [Filip Ekberg](http://filipekberg.se/2014/05/21/goodbye-wordpress-hello-snow/).
+- _[Sandra.Snow](https://github.com/Sandra/Sandra.Snow)_ a Jekyll-inspired static site generation tool
+which comes recommended by my colleague [Filip Ekberg](http://filipekberg.se/2014/05/21/goodbye-wordpress-hello-snow/).
 
 In the end (as you already know) I selected Jekyll and here's why:
 
@@ -100,7 +100,7 @@ In the end (as you already know) I selected Jekyll and here's why:
 It's designed to generate a static site.
 
 2. _Must be able to host for free._<br />
-You can host for free on _GitHub Pages_.
+You can host for free on GitHub Pages.
 
 3. _Must allow me to design (or modify) my own theme._<br />
 There are [themes](http://jekyllthemes.org) that you can easily modify to suit your requirements.
@@ -121,25 +121,25 @@ has [plugins](http://jekyllrb.com/docs/plugins/) that extend it's functionality 
 
 7. _Must be able to forward-date posts for future release._<br />
 Jekyll has the concept of working with [drafts](http://jekyllrb.com/docs/drafts/)
-and you can forward-date posts using git branches and just merge them when you want to release a new post.
+and you can forward-date posts using Git branches and just merge them when you want to release a new post.
 
-So **all is well** regarding the requirements. _Next step: get it going on Windows._
+So **all is well** regarding the requirements. _Next step: get it going on Windows_.
 
 ## Installing Prerequisites
 
 There are quite a few prerequisites required to get to the point where we can install Jekyll,
-so here is a _by the seat of your pants_ guide to installing all the prerequisites.
+so here is my **by the seat of your pants** guide to installing all the prerequisites.
 I assume a reasonable proficiency with computers here so if you get into trouble feel free to
-[email me at tod@todthomson.com](mailto:tod@todthomson.com)
+[email me at _tod@todthomson.com_](mailto:tod@todthomson.com)
 or
-[ask me on Twitter](https://twitter.com/todthomson).
+[ask me on _Twitter_](https://twitter.com/todthomson).
 
-> What follows is heavily sourced from Julian Thilo's [guide](http://jekyll-windows.juthilo.com).
+> What follows is heavily sourced from **Julian Thilo's [guide](http://jekyll-windows.juthilo.com)**.
 
 ### Git and GitHub (for Windows)
 
-Because we are going to version our source code and content with _Git_,
-"backup" our site to _GitHub_ and host our site on _GitHub Pages_,
+Because we are going to version our source code and content with Git,
+"backup" our site to GitHub and host our site on GitHub Pages,
 we need to have some elementary understanding of Git and GitHub.
 Please read [a beginner's guide to using Git on Windows](http://gitbyexample.org)
 and the [GitHub Guide "Hello World"](https://guides.github.com/activities/hello-world/)
@@ -165,7 +165,7 @@ to use [Pygments](http://pygments.org) the [Python](https://www.python.org) gene
 which is included "out of the box" on GitHub Pages.
 
 1. [Download](https://www.python.org/downloads/) and install Python 2.7.x
-(make sure to add python to your _path_ as part of the installation).
+(make sure to add Python to your _path_ as part of the installation).
 
 2. Open a new command prompt (so you will get Python in your _path_) and run
 ```python -m pip install Pygments``` which will install the syntax highlighter.
@@ -211,11 +211,11 @@ But before we try to install Jekyll let's make sure everything is working.
 
 To avoid problems down the road we are going to confirm that all the prerequisites have installed correctly.
 
-> Here we will use _Git Shell_ ([MINGW32](http://en.wikipedia.org/wiki/MinGW)) that comes with _GitHub for Windows_ providing the
+> Here we will use Git Shell ([MINGW32](http://en.wikipedia.org/wiki/MinGW)) that comes with GitHub for Windows providing the
 ```which``` command.
 If you don't have something that provides the ```which``` command you won't be able to complete these steps.
 
-1. Open (or close and reopen) _Git Shell_.
+1. Open (or close and reopen) Git Shell.
 
 2. Confirm Node.js is installed and is in your _path_ by running ```which node```
 which should produce ```/c/Program Files/nodejs/node```.
@@ -260,7 +260,7 @@ Run ```cd c:\BlogTest``` to change to that directory.
 [scaffold](http://en.wikipedia.org/wiki/Scaffold_%28programming%29)
 a basic Jekyll site for you.
 
-6. Now run ```jekyll build``` and you should see the following output:
+6. Now run ```jekyll build``` and you should see the following output.
 
 <div style="text-align: center;">
   <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/jekyll-build.png"
@@ -269,7 +269,7 @@ a basic Jekyll site for you.
 
 ## Testing Jekyll
 
-Next we are going to test to make sure that our blog scaffold was generated correctly
+Next we are going to test to make sure that our blog scaffold generated correctly
 and that we can preview our blog locally.
 
 Run ```jekyll serve``` to recompile the blog and host it in the [WEBrick](http://en.wikipedia.org/wiki/WEBrick)
@@ -287,30 +287,55 @@ Browse to ```http://localhost:4000``` and you should be able to see your blog.
        alt="Jekyll Example Page" />
 </div>
 
-You can delete ```c:\BlogTest``` after confirming it's all working correctly.
-
 > You will need to ```CTRL+C``` to send the [SIGINT](http://en.wikipedia.org/wiki/Control-C) signal to close the process.
+
+## Pygments vs Rouge
+
+As I have already talked about Pygments is the default syntax highlighter used in GitHub Pages
+and if we weren't hosting our blog on GitHub Pages we could use the pure-Ruby syntax highlighter Rouge.
+
+The default ```_config.yml``` generated when you run ```jekyll new .``` looks like this.
+
+{% highlight yaml %}
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: ""
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+{% endhighlight %}
+
+As you can see Jekyll now defaults to ```highlighter: rouge```.
+We will need to change that to ```highlighter: pygments``` for our blog to work on GitHub Pages.
+
+> You can delete ```c:\BlogTest``` now you have confirmed Jekyll is working.
 
 ## Hosting on GitHub Pages
 
-Now you have the basic skeleton of a blog you can set up hosting on _GitHub Pages_.
+Now you have the basic skeleton of a blog you can set up hosting on GitHub Pages.
 
 1. Run ```gem install bundler``` to install [Bundler](http://bundler.io) the package bundle manager.
 
 2. Run ```gem install github-pages``` to install the support package.
 
-3. Run ```gem install redcarpet``` to install [Redcarpet](https://github.com/vmg/redcarpet) a Ruby Markdown parser.
+3. Run ```gem install redcarpet``` to install [Redcarpet](https://github.com/vmg/redcarpet) a Ruby Markdown-parser.
 
 4. Follow these [instructions](https://pages.github.com) to set up a repository and hosting for your new blog.
 
 5. Check your site is working at ```http://username.github.io```.
 
-> It may take up to 30 minutes to become live so you might need to move on and come back to this step later.
+> It may take up to 30 minutes to become live so you might need to move on and come back to this step later...
 
 ## Update "All the Things"!
 
-There are some known bugs in some packages we're dependant upon (just on Windows)
-so you might need to run ```gem update``` to make sure all your packages are up to date before continuing.
+There are some known bugs (on Windows) in some packages we're dependant upon 
+so you might like to run ```gem update``` to make sure all your packages are up to date before continuing.
 You will need to be very patient as this will take an eternity.
 
 > If you get the following error then keep re-running ```gem update``` until it completes successfully.
