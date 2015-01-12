@@ -15,7 +15,7 @@ layout: null
         <webMaster>{{ site.author.email }} ({{ site.author.name }})</webMaster>
         <docs>http://validator.w3.org/feed/docs/rss2.html</docs>
         <image>
-            <url>{{ site.url }}{{ site.avatar }}</url>
+            <url>{{ site.url }}{{ site.baseurl }}{{ site.avatar }}</url>
             <title>{{ site.title | xml_escape }}</title>
             <link>{{ site.url }}</link>
         </image>
