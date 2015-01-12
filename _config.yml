@@ -8,19 +8,26 @@ relative_permalinks: true
 
 # Setup
 title: "Tod Thomson's Blog"
-tagline: 'TAGLINE'
-description: 'DESCRIPTION'
+description: "A blog about my development experiences in the Microsoft's ecosystem"
+tagline: 'The incoherent babbling of some random...'
 url: http://todthomson.com
-baseurl: /
+baseurl: http://todthomson.com/
 
+# Feed
+copyright: '2015 Tod Thomson'
+feed: /atom.xml
+avatar: /public/images/avatar.png
+
+# Author
 author:
   name: 'Tod Thomson'
   url: https://twitter.com/todthomson
   email: tod@todthomson.com
 
+# Pagination
 paginate: 5
 
-# Custom vars
+# Custom Variables
 version: 0.0.1
 
 github:

@@ -1,29 +1,35 @@
 ---
 layout: null
 ---
-
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
-
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <published>{{ post.date | date_to_xmlschema }}</published>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
-
-</feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- http://validator.w3.org/feed/docs/rss2.html -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>{{ site.title | xml_escape }}</title>
+        <link>{{ site.url }}</link>
+        <atom:link href="{{ site.url }}{{ site.feed }}" rel="self" type="application/rss+xml" />
+        <description>{{ site.description | xml_escape }}</description>
+        <language>en-AU</language>
+        <copyright>Copyright {{ site.copyright }}</copyright>
+        <managingEditor>{{ site.author.email }} ({{ site.author.name }})</managingEditor>
+        <webMaster>{{ site.author.email }} ({{ site.author.name }})</webMaster>
+        <docs>http://validator.w3.org/feed/docs/rss2.html</docs>
+        <image>
+            <url>{{ site.url }}{{ site.avatar }}</url>
+            <title>{{ site.title | xml_escape }}</title>
+            <link>{{ site.url }}</link>
+        </image>
+        {% for post in site.posts limit:50 %}
+        <item>
+            <title>{{ post.title | xml_escape }}</title>
+            <link>{{ site.url }}{{ post.url }}</link>
+            <description><![CDATA[{{ post.description }}]]></description>
+            <author>{{ site.author.email }} ({{ site.author.name }})</author>
+            <!-- <comments></comments> -->
+            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+            <source url="{{ site.url }}{{ site.feed }}">{{ site.title | xml_escape }}</source>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
