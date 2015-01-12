@@ -8,14 +8,14 @@ relative_permalinks: true
 
 # Setup
 title: "Tod Thomson's Blog"
-description: "A blog about my development experiences in the Microsoft's ecosystem"
+description: "A blog about my development experiences in Microsoft's ecosystem"
 tagline: 'The incoherent babbling of some random...'
 url: http://todthomson.com
-baseurl: http://todthomson.com/
+baseurl: /
 
 # Feed
 copyright: '2015 Tod Thomson'
-feed: /atom.xml
+feed: /feed.xml
 avatar: /public/images/avatar.png
 
 # Author

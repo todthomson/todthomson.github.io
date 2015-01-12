@@ -10,7 +10,7 @@ layout: null
         <atom:link href="{{ site.url }}{{ site.feed }}" rel="self" type="application/rss+xml" />
         <description>{{ site.description | xml_escape }}</description>
         <language>en-AU</language>
-        <copyright>Copyright {{ site.copyright }}</copyright>
+        <copyright>Copyright {{ site.copyright | xml_escape }}</copyright>
         <managingEditor>{{ site.author.email }} ({{ site.author.name }})</managingEditor>
         <webMaster>{{ site.author.email }} ({{ site.author.name }})</webMaster>
         <docs>http://validator.w3.org/feed/docs/rss2.html</docs>
