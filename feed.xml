@@ -7,7 +7,7 @@ layout: null
     <channel>
         <title>{{ site.title | xml_escape }}</title>
         <link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}{{ site.feed }}" rel="self" type="application/rss+xml" />
+        <atom:link href="{{ site.url }}{{ site.baseurl }}{{ site.feed }}" rel="self" type="application/rss+xml" />
         <description>{{ site.description | xml_escape }}</description>
         <language>en-AU</language>
         <copyright>Copyright {{ site.copyright | xml_escape }}</copyright>
@@ -28,7 +28,7 @@ layout: null
             <!-- <comments></comments> -->
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <source url="{{ site.url }}{{ site.feed }}">{{ site.title | xml_escape }}</source>
+            <source url="{{ site.url }}{{ site.baseurl }}{{ site.feed }}">{{ site.title | xml_escape }}</source>
         </item>
         {% endfor %}
     </channel>
