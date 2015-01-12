@@ -260,165 +260,105 @@ Run ```cd c:\BlogTest``` to change to that directory.
 [scaffold](http://en.wikipedia.org/wiki/Scaffold_%28programming%29)
 a basic Jekyll site for you.
 
-6. Now run ```jekyll build``` and you should see output looking like the following:
+6. Now run ```jekyll build``` and you should see the following output:
 
 <div style="text-align: center;">
   <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/jekyll-build.png"
        alt="Jekyll Build Output" />
 </div>
 
-> There is a known issue with Pygments > 0.5.0 on Windows producing the warning
-> ```cannot close fd before spawn``` which can safely be ignored.
-
-### Don't ignore errors... Fix them! :D
-
-TODO (CONTINUE FROM HERE)
-
 ## Testing Jekyll
 
-> You can check ```http://localhost:4000``` for a [WEBrick](http://en.wikipedia.org/wiki/WEBrick) web server directory listing when running the ```serve``` command. If you see the empty directory listing 
+Next we are going to test to make sure that our blog scaffold was generated correctly
+and that we can preview our blog locally.
 
-> You can delete that directory (e.g. c:\BlogTest') after confirming it's all working correctly.
+Run ```jekyll serve``` to recompile the blog and host it in the [WEBrick](http://en.wikipedia.org/wiki/WEBrick)
+web server.
+
+<div style="text-align: center;">
+  <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/jekyll-serve.png"
+       alt="Jekyll Serve Output" />
+</div>
+
+Browse to ```http://localhost:4000``` and you should be able to see your blog.
+
+<div style="text-align: center;">
+  <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/jekyll-example.png"
+       alt="Jekyll Example Page" />
+</div>
+
+You can delete ```c:\BlogTest``` after confirming it's all working correctly.
 
 > You will need to ```CTRL+C``` to send the [SIGINT](http://en.wikipedia.org/wiki/Control-C) signal to close the process.
 
+## Hosting on GitHub Pages
 
+Now you have the basic skeleton of a blog you can set up hosting on _GitHub Pages_.
 
+1. Run ```gem install bundler``` to install [Bundler](http://bundler.io) the package bundle manager.
 
+2. Run ```gem install github-pages``` to install the support package.
 
+3. Run ```gem install redcarpet``` to install [Redcarpet](https://github.com/vmg/redcarpet) a Ruby Markdown parser.
 
+4. Follow these [instructions](https://pages.github.com) to set up a repository and hosting for your new blog.
 
+5. Check your site is working at ```http://username.github.io```.
 
+> It may take up to 30 minutes to become live so you might need to move on and come back to this step later.
 
+## Update "All the Things"!
 
+There are some known bugs in some packages we're dependant upon (just on Windows)
+so you might need to run ```gem update``` to make sure all your packages are up to date before continuing.
+You will need to be very patient as this will take an eternity.
 
-# other things...
+> If you get the following error then keep re-running ```gem update``` until it completes successfully.
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+<pre>
+ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError)
+    bad response Service Unavailable 503
+    (https://api.rubygems.org/api/v1/dependencies?gems=rake)
+</pre>
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+## Level up your Blog with Poole and Hyde
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+> _That's great <span style="font-style: normal; font-weight: bold;">Tod</span>
+> but I want my blog to look awesome..._
 
-## Inline HTML elements
+So you want your blog to look a little better than just the default Jekyll theme?
+As I mentioned earlier there are
+[loads](http://jekyllthemes.org)
+[of](https://github.com/jekyll/jekyll/wiki/Themes)
+[cool](http://themeforest.net/category/static-site-generators/jekyll)
+[themes](https://mademistakes.com/work/jekyll-themes/)
+[out](http://themes.jekyllbootstrap.com)
+[there](https://www.jekyllthemes.net)
+you can choose from.
+It didn't take me long to find something that I really liked that should be easy to modify to suit my needs.
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+[Poole](http://getpoole.com) was _designed and developed by
+[@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site.
+It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles._
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+[Hyde]() is a _brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content based on Poole._
 
-Most of these elements are styled by browsers with few modifications on our part.
+All you need to do to get going to start with an empty folder and clone either Poole or Hyde into it.
+Then you just hack away at the template partials and CSS etc until you get something you're happy with.
 
-## Heading
+The layout and styling you see here is based on Hyde.
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+## Coda
 
-### Code
+**I really hope** you find this blog post useful.
+It might seem at first that there is a lot to do to get your blog set up with Jekyll,
+but it's worth it as the end product is very transparent and easy to hack on.
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+Feel free to drop me a
+[line](mailto:tod@todthomson.com)
+or a
+[tweet](https://twitter.com/todthomson)
+if you have any feedback, suggestions or if anything doesn't work for you as described.
+I'm more than happy to help.
 
-{% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-### Gists via GitHub Pages
-
-Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
-
-{% gist 5555251 gist.md %}
-
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
-
-### Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](http://placehold.it/800x400 "Large example image")
-![placeholder](http://placehold.it/400x200 "Medium example image")
-![placeholder](http://placehold.it/200x200 "Small example image")
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
------
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+Until next time.... _[Make Mine Jekyll](http://en.wikipedia.org/wiki/Comic_book_letter_column)!_

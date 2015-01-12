@@ -148,9 +148,14 @@ blockquote code {
 }
 
 img {
-  margin: .5rem 0;
+  margin: .5rem 0 1rem 0;
 }
 
 abbr[title] {
   border-bottom-color: #CCCCCC;
+}
+
+h2, h3 {
+  margin-top: 2rem;
+  margin-bottom: .75rem;
 }
