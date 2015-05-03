@@ -41,7 +41,8 @@ Because
 I told myself "Tod, you absolutely must!".
 
 <div style="text-align: center;">
-  <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/blog-all-the-things.jpg"
+  <img style="display: inline-block;"
+       src="{{ site.baseurl }}public/images/posts/1/blog-all-the-things.jpg"
        alt="BLOG ALL THE THINGS" />
 </div>
 

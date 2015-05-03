@@ -111,8 +111,13 @@
 /* Body Content */ 
 
 .content {
+  max-width: none;
   padding-top: 2.5rem;
   padding-bottom: .5rem;
+}
+
+.container {
+  max-width: none;
 }
 
 @media (min-width: 48em) {
