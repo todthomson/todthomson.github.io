@@ -14,8 +14,8 @@ at the
 [Brisbane Software Improvement Group](http://www.meetup.com/Brisbane-Software-Improvement-Group/).
 
 There's no video or audio for the presentation, but I thought make the
-[slide deck available](https://speakerdeck.com/todthomson/developer-health-check-2015-edition)
-on
+[slide deck](https://speakerdeck.com/todthomson/developer-health-check-2015-edition)
+available on
 [Speaker Deck](https://speakerdeck.com/)
 in any case.
 
