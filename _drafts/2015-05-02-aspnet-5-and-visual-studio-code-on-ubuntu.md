@@ -2,10 +2,7 @@
 layout: post
 title: Visual Studio Code on Ubuntu 15.04
 description: |
-    In this post I provide a "by the seat of your pants" no-frills guide to getting
-    [Visual Studio Code](https://code.visualstudio.com/)
-    up and running on
-    [Ubuntu](http://www.ubuntu.com/).
+    In this post I provide a "by the seat of your pants" no-frills guide to getting Visual Studio Code up and running on [Ubuntu](http://www.ubuntu.com/).
 ---
 
 In this post I provide a "by the seat of your pants" no-frills guide to getting
@@ -26,11 +23,11 @@ Follow these instructions to install Ubuntu GNU/Linux 15.04 64-bit on Virtual Bo
 3. Create a new VM using the _Linux => Ubuntu (64 bit)_ template.
 
     i. I suggest a minimum of 2GiB of RAM and a maximum of half of your host memory (e.g. my desktop has 16GiB of RAM so I'll allocate 4GiB of RAM).
-    
+
     > You can always dial it up or down later!
 
     ii. I suggest you use a _dynamically allocated_ disk of a large enough "virtual size" so you won't have to resize it in the future.
-    
+
     > I'm using a 64GiB disk ;)
 
     iii. If you know your VMs then you can tweak all the VM settings like I do.
@@ -140,4 +137,4 @@ sudo rm -rf /usr/local/src/libuv-1.4.2 && cd ~/
 sudo ldconfig
 ```
 
-TODO: TOD
+TODO: continue on from here...
