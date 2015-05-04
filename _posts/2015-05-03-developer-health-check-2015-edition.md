@@ -2,11 +2,10 @@
 layout: post
 title: Developer Health Check (2015 Edition)
 description: |
-    Earlier tonight I presented my
-    [Developer Health Check (2015 Edition)](http://www.meetup.com/Brisbane-Software-Improvement-Group/events/220574022/)
-    at the
-    [Brisbane Software Improvement Group](http://www.meetup.com/Brisbane-Software-Improvement-Group/).
-    There is no video or audio for the presentation, but I thought I'd make the slides available in case anyone is interested
+    Last month I presented my Developer Health Check (2015 Edition)
+    at the Brisbane Software Improvement Group.
+    There is no video or audio for the presentation,
+    but I thought I'd make the slides available in any case.
 ---
 
 Earlier tonight I presented my
