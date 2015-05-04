@@ -5,10 +5,10 @@ description: |
     Last month I presented my Developer Health Check (2015 Edition)
     at the Brisbane Software Improvement Group.
     There is no video or audio for the presentation,
-    but I thought I'd make the slides available in any case.
+    but I thought I'd make the slide deck available in any case.
 ---
 
-Earlier tonight I presented my
+Last month I presented my
 [Developer Health Check (2015 Edition)](http://www.meetup.com/Brisbane-Software-Improvement-Group/events/220574022/)
 at the
 [Brisbane Software Improvement Group](http://www.meetup.com/Brisbane-Software-Improvement-Group/).
@@ -17,7 +17,7 @@ There's no video or audio for the presentation, but I thought make the
 [slide deck available](https://speakerdeck.com/todthomson/developer-health-check-2015-edition)
 on
 [Speaker Deck](https://speakerdeck.com/)
-in case anyone is interested.
+in any case.
 
 As always please drop me a
 [line](mailto:tod@todthomson.com)

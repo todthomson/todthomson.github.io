@@ -2,7 +2,8 @@
 layout: post
 title: Visual Studio Code on Ubuntu 15.04
 description: |
-    In this post I provide a "by the seat of your pants" no-frills guide to getting Visual Studio Code up and running on [Ubuntu](http://www.ubuntu.com/).
+    In this post I provide a "by the seat of your pants" no-frills guide to getting
+    Visual Studio Code up and running on Ubuntu.
 ---
 
 In this post I provide a "by the seat of your pants" no-frills guide to getting
