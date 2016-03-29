@@ -79,15 +79,15 @@
 }
 
 .sidebar-nav-links a img {
-  height: 32px;
+  height: 38px;
   margin: 0;
   padding: 2px;
-  width: 32px;
+  width: 38px;
 }
 
 @media (min-width: 58em) {
   .sidebar-nav-links a img {
-    padding: 3px;
+    padding: 4px;
   }
 }
 
