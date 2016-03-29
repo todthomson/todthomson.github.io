@@ -21,19 +21,6 @@
   }
 }
 
-@media (min-height: 860px) {
-  .avatar {
-    /* display: inline-block;
-    height: 128px;
-    width: 128px; */
-  }
-}
-
-@media (min-height: 1040px) and (min-width: 58rem) {
-  .avatar {
-  }
-}
-
 .avatar {
   height: auto;
   width: auto;
