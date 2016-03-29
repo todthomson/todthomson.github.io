@@ -15,37 +15,20 @@
   text-align: center;
 }
 
-.avatar {
-  display: none;
-  max-height: 304px;
-  max-width: 304px;
-}
-
 @media (min-width: 48rem) {
   .avatar-wrapper {
     text-align: left;
   }
 }
 
-@media (min-height: 860px) {
-  .avatar {
-    display: inline-block;
-    height: 128px;
-    margin: 1rem;
-    width: 128px;
-  }
-}
-
-@media (min-height: 1040px) and (min-width: 58rem) {
-  .avatar {
-    height: auto;
-    width: auto;
-  }
+.avatar {
+  height: auto;
+  width: auto;
 }
 
 .sidebar-about h1 {
   margin-bottom: 1.2rem;
-  font-size: 2.15rem;
+  font-size: 1.6rem;
 }
 
 .lead {
