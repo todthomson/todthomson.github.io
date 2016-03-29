@@ -13,7 +13,7 @@ url: http://todthomson.com
 baseurl: /
 
 # Feed
-copyright: '2015 Tod Thomson'
+copyright: '2015-2016 Tod Thomson'
 feed: feed.xml
 avatar: public/images/avatar.png
 
@@ -24,10 +24,10 @@ author:
   email: tod@todthomson.com
 
 # Pagination
-paginate: 5
+paginate: 1
 
 # Custom Variables
-version: 0.0.1
+version: 0.0.2
 
-github:
-  repo: https://github.com/c0ntinuum
+github: https://github.com/todthomson
+  repo: https://github.com/todthomson/todthomson.github.io
