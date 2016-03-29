@@ -13,7 +13,7 @@ url: http://todthomson.com
 baseurl: /
 
 # Feed
-copyright: '2015-2016 Tod Thomson'
+copyright: '2016 Tod Thomson'
 feed: feed.xml
 avatar: public/images/avatar.png
 
