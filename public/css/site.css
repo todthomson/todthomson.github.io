@@ -58,7 +58,8 @@
 
 @media (min-height: 695px) {
   .description {
-    display: inherit;
+    /* display: inherit; */
+    display: none;
   }
 }
 
