@@ -105,17 +105,14 @@
 
 .content {
   max-width: none;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   padding-bottom: .5rem;
-}
-
-.container {
-  max-width: none;
 }
 
 @media (min-width: 48em) {
   .content {
     margin-right: .8rem;
+    padding-top: 2.5rem;
   }
 }
 
@@ -125,15 +122,32 @@
   }
 }
 
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 48em) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .pagination {
   margin-top: -.5rem;
 }
 
-
 /* Posts */
 
 .post {
-  /* text-align: justify; */
+  margin-bottom: 3em;
+}
+
+@media (min-width: 48em) {
+  .post {
+    margin-bottom: 4em;
+  }
 }
 
 blockquote {
