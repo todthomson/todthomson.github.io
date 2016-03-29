@@ -11,23 +11,24 @@
   }
 }
 
-.avatar-wrapper {
+.avatar {
+  border-radius: 152px;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  max-height: 152px;
+  max-width: 152px;
   text-align: center;
 }
 
 @media (min-width: 48rem) {
-  .avatar-wrapper {
-    text-align: left;
+  .avatar {
+    border-radius: 304px;
+    display: block;
+    max-height: 304px;
+    max-width: 304px;
+    margin: 1rem;
   }
-}
-
-.avatar {
-  border-radius: 304px;
-  height: auto;
-  width: auto;
-  max-height: 304px;
-  max-width: 304px;
-  margin: 1rem;
 }
 
 .sidebar-about h1 {
