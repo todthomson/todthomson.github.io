@@ -7,7 +7,7 @@ title: About Me
     I am a software developer living in sunny Brisbane, Australia who you will often find designing and implementing web-standards-based web applications in HTML, CSS and JS with back-ends in C#, ASP.NET MVC and WebAPI.
 </p>
 
-I'm currently working as a Senior Developer with the amazing crew at
+I'm currently working as a Senior Consultant with the amazing crew at
 [Readify](http://readify.net)
 so if you're in need of an individual or team who can deliver outstanding software with velocity and uncommon sense
 [contact us](http://readify.net/contact-us/)
