@@ -2,6 +2,9 @@
 markdown: kramdown
 highlighter: rouge
 
+# Gems
+gems: [jekyll-paginate]
+
 # Permalinks
 permalink: pretty
 
