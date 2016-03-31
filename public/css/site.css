@@ -22,17 +22,18 @@
   max-height: 180px;
   max-width: 180px;
   text-align: center;
+  transition: all .3s ease-in-out;
   width: auto;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 48rem) and (min-height: 700px) {
   .avatar {
     max-height: 240px;
     max-width: 240px;
   }
 }
 
-@media (min-width: 58rem) {
+@media (min-width: 58rem) and (min-height: 780px) {
   .avatar {
     max-height: 304px;
     max-width: 304px;
@@ -50,12 +51,6 @@
 
 .description {
   display: none;
-}
-
-@media (min-height: 695px) {
-  .description {
-    display: none;
-  }
 }
 
 .sidebar-nav {
