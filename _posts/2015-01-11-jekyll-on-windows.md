@@ -44,11 +44,7 @@ Because
 
 I told myself "Tod, you absolutely must!".
 
-<div style="text-align: center;">
-  <img style="display: inline-block;"
-       src="{{ site.baseurl }}public/images/posts/1/blog-all-the-things.jpg"
-       alt="BLOG ALL THE THINGS" />
-</div>
+![BLOG ALL THE THINGS!]({{site.baseurl}}public/images/posts/1/blog-all-the-things.jpg)
 
 And I might have something interesting to say one day and nowhere to say it.
 
@@ -271,10 +267,7 @@ a basic Jekyll site for you.
 
 6. Now run ```jekyll build``` and you should see the following output.
 
-<div style="text-align: center;">
-  <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/jekyll-build.png"
-       alt="Jekyll Build Output" />
-</div>
+![Jekyll Build Output]({{site.baseurl}}public/images/posts/1/jekyll-build.png)
 
 ## Testing Jekyll
 
@@ -284,17 +277,11 @@ and that we can preview our blog locally.
 Run ```jekyll serve``` to recompile the blog and host it in the [WEBrick](http://en.wikipedia.org/wiki/WEBrick)
 web server.
 
-<div style="text-align: center;">
-  <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/jekyll-serve.png"
-       alt="Jekyll Serve Output" />
-</div>
+![Jekyll Serve Output]({{site.baseurl}}public/images/posts/1/jekyll-serve.png)
 
 Browse to ```http://localhost:4000``` and you should be able to see your blog.
 
-<div style="text-align: center;">
-  <img style="display: inline-block" src="{{ site.baseurl }}public/images/posts/1/jekyll-example.png"
-       alt="Jekyll Example Page" />
-</div>
+![Jekyll Example Page]({{site.baseurl}}public/images/posts/1/jekyll-example.png)
 
 > You will need to ```CTRL+C``` to send the [SIGINT](http://en.wikipedia.org/wiki/Control-C) signal to close the process.
 
@@ -305,7 +292,7 @@ and if we weren't hosting our blog on GitHub Pages we could use the pure-Ruby sy
 
 The default ```_config.yml``` generated when you run ```jekyll new .``` looks like this.
 
-{% highlight yaml %}
+```yaml
 # Site settings
 title: Your awesome title
 email: your-email@domain.com
@@ -318,7 +305,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 highlighter: rouge
-{% endhighlight %}
+```
 
 As you can see Jekyll now defaults to ```highlighter: rouge```.
 We will need to change that to ```highlighter: pygments``` for our blog to work on GitHub Pages.
