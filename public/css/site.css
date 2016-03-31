@@ -20,18 +20,18 @@
   height: 100%;
   margin: 0;
   max-width: 172px;
-  padding: 1rem;
+  padding: 20px;
   text-align: center;
   width: 100%;
 }
 
-@media (min-height: 690px) {
+@media (min-width: 48rem) and (min-height: 690px) {
   .avatar {
     max-width: 258px;
   }
 }
 
-@media (min-height: 780px) {
+@media (min-width: 58rem) and (min-height: 780px) {
   .avatar {
     max-width: 100%;
   }
