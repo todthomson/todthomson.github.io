@@ -13,10 +13,9 @@ Last month I presented my
 at the
 [Brisbane Software Improvement Group](http://www.meetup.com/Brisbane-Software-Improvement-Group/).
 
-There's no video or audio for the presentation, but I thought make the
-[slide deck](https://speakerdeck.com/todthomson/developer-health-check-2015-edition)
-available on
-[Speaker Deck](https://speakerdeck.com/)
+There's no video or audio for the presentation,
+but I thought make the
+[__slide deck available on Speaker Deck__](https://speakerdeck.com/todthomson/developer-health-check-2015-edition)
 in any case.
 
 As always please drop me a

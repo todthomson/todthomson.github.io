@@ -2,9 +2,11 @@
 layout: post
 title: Jekyll on Windows
 description: |
-  Jekyll is a simple blog-aware static website generator written in Ruby
-  in which you can author your content in Markdown and host your site in GitHub Pages.
-  In this post I provide a "by the seat of your pants" no-frills guide to Jekyll on Windows.
+  Jekyll is a simple blog-aware static website generator written in
+  Ruby in which you can author your content in Markdown
+  and host your site in GitHub Pages.
+  In this post I provide a "by the seat of your pants"
+  no-frills guide to Jekyll on Windows.
 ---
 
 [Jekyll](http://http://jekyllrb.com)
@@ -339,7 +341,7 @@ Now you have the basic skeleton of a blog you can set up hosting on GitHub Pages
 
 ## Update "All the Things"!
 
-There are some known bugs (on Windows) in some packages we're dependant upon 
+There are some known bugs (on Windows) in some packages we're dependant upon
 so you might like to run ```gem update``` to make sure all your packages are up to date before continuing.
 You will need to be very patient as this will take an eternity.
 
