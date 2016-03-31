@@ -8,6 +8,8 @@ description: |
     but I thought I'd make the slide deck available in any case.
 ---
 
+![Developer Health Check (2015 Edition)]({{ site.baseurl }}public/images/posts/2/developer-health-check-2015-edition.png)
+
 Last month I presented my
 [Developer Health Check (2015 Edition)](http://www.meetup.com/Brisbane-Software-Improvement-Group/events/220574022/)
 at the

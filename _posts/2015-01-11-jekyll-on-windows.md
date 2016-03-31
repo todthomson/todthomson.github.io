@@ -9,6 +9,8 @@ description: |
   no-frills guide to Jekyll on Windows.
 ---
 
+![Get Started With Jekyll]({{ site.baseurl }}public/images/posts/1/jekyll.jpg)
+
 [Jekyll](http://http://jekyllrb.com)
 is a simple blog-aware static website generator written in
 [Ruby](https://www.ruby-lang.org)
