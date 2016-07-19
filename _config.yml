@@ -18,7 +18,7 @@ baseurl: /
 # Feed
 copyright: '2016 Tod Thomson'
 feed: feed.xml
-avatar: public/images/avatar.jpg
+avatar: public/images/avatar.png
 
 # Author
 author:
