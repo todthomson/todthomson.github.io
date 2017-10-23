@@ -13,12 +13,11 @@ title: "Tod Thomson's Blog"
 description: "A blog about my development experiences in Microsoft's ecosystem"
 tagline: 'The incoherent babbling of some random...'
 url: http://todthomson.com
-baseurl: /
 
 # Feed
 copyright: '2016 Tod Thomson'
 feed: feed.xml
-avatar: public/images/avatar.jpg
+avatar: /public/images/avatar.jpg
 
 # Author
 author:

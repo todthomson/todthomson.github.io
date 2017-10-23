@@ -6,7 +6,7 @@ description: |
     Linux, .NET Core, ASP.NET Core and Docker.
 ---
 
-![Microsoft ♥ Linux]({{ site.baseurl }}public/images/posts/3/nadella-loves-linux.jpg)
+![Microsoft ♥ Linux](/public/images/posts/3/nadella-loves-linux.jpg)
 
 Earlier this month I prepared and ran a workshop for
 [Readify Queensland](https://readify.net)

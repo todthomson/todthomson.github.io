@@ -1,6 +1,6 @@
 <div class="sidebar">
     <div class="avatar-wrapper">
-        <img class="avatar" src="{{ site.baseurl }}public/images/avatar.jpg" alt="" />
+        <img class="avatar" src="/public/images/avatar.jpg" alt="" />
     </div>
     <div class="container sidebar-sticky">
         <div class="sidebar-about">
@@ -17,7 +17,7 @@
             </p>
         </div>
         <nav class="sidebar-nav">
-            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+            <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
             <br />
             {% comment %}
                 The code below dynamically generates a sidebar nav of pages with
@@ -33,12 +33,12 @@
                 {% endif %}
             {% endfor %}
             <div class="sidebar-nav-links">
-                <a href="{{ site.baseurl }}{{ site.feed }}"><img src="{{ site.baseurl }}public/images/atom.png" alt="Atom" /></a>
-                <a href="https://github.com/todthomson"><img src="{{ site.baseurl }}public/images/github.png" alt="GitHub" /></a>
-                <a href="https://stackoverflow.com/users/372666/tod-thomson"><img src="{{ site.baseurl }}public/images/stack-overflow.png" alt="Stack Overflow" /></a>
-                <a href="https://au.linkedin.com/in/todthomson/"><img src="{{ site.baseurl }}public/images/linked-in.png" alt="LinkedIn" /></a>
-                <a href="https://twitter.com/todthomson"><img src="{{ site.baseurl }}public/images/twitter.png" alt="Twitter" /></a>
-                <a href="https://www.facebook.com/todthomson"><img src="{{ site.baseurl }}public/images/facebook.png" alt="Facebook" /></a>
+                <a href="/{{ site.feed }}"><img src="/public/images/atom.png" alt="Atom" /></a>
+                <a href="https://github.com/todthomson"><img src="/public/images/github.png" alt="GitHub" /></a>
+                <a href="https://stackoverflow.com/users/372666/tod-thomson"><img src="/public/images/stack-overflow.png" alt="Stack Overflow" /></a>
+                <a href="https://au.linkedin.com/in/todthomson/"><img src="/public/images/linked-in.png" alt="LinkedIn" /></a>
+                <a href="https://twitter.com/todthomson"><img src="/public/images/twitter.png" alt="Twitter" /></a>
+                <a href="https://www.facebook.com/todthomson"><img src="/public/images/facebook.png" alt="Facebook" /></a>
             </div>
         </nav>
         <p class="copyright">

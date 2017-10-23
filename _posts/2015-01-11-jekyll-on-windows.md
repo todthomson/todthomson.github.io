@@ -9,7 +9,7 @@ description: |
   no-frills guide to Jekyll on Windows.
 ---
 
-![Get Started With Jekyll]({{ site.baseurl }}public/images/posts/1/jekyll.jpg)
+![Get Started With Jekyll](/public/images/posts/1/jekyll.jpg)
 
 [Jekyll](http://http://jekyllrb.com)
 is a simple blog-aware static website generator written in
@@ -44,7 +44,7 @@ Because
 
 I told myself "Tod, you absolutely must!".
 
-![BLOG ALL THE THINGS!]({{site.baseurl}}public/images/posts/1/blog-all-the-things.jpg)
+![BLOG ALL THE THINGS!](/public/images/posts/1/blog-all-the-things.jpg)
 
 And I might have something interesting to say one day and nowhere to say it.
 
@@ -267,7 +267,7 @@ a basic Jekyll site for you.
 
 6. Now run ```jekyll build``` and you should see the following output.
 
-![Jekyll Build Output]({{site.baseurl}}public/images/posts/1/jekyll-build.png)
+![Jekyll Build Output](/public/images/posts/1/jekyll-build.png)
 
 ## Testing Jekyll
 
@@ -277,11 +277,11 @@ and that we can preview our blog locally.
 Run ```jekyll serve``` to recompile the blog and host it in the [WEBrick](http://en.wikipedia.org/wiki/WEBrick)
 web server.
 
-![Jekyll Serve Output]({{site.baseurl}}public/images/posts/1/jekyll-serve.png)
+![Jekyll Serve Output](/public/images/posts/1/jekyll-serve.png)
 
 Browse to ```http://localhost:4000``` and you should be able to see your blog.
 
-![Jekyll Example Page]({{site.baseurl}}public/images/posts/1/jekyll-example.png)
+![Jekyll Example Page](/public/images/posts/1/jekyll-example.png)
 
 > You will need to ```CTRL+C``` to send the [SIGINT](http://en.wikipedia.org/wiki/Control-C) signal to close the process.
 
@@ -297,7 +297,6 @@ The default ```_config.yml``` generated when you run ```jekyll new .``` looks li
 title: Your awesome title
 email: your-email@domain.com
 description: ""
-baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: jekyllrb
 github_username:  jekyll
