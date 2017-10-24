@@ -1,174 +1,169 @@
 /* Side Bar */
 
 .sidebar {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 @media (min-width: 48em) {
-  .sidebar {
-    width: 19.2rem;
-  }
+    .sidebar {
+        width: 19.2rem;
+    }
 }
 
 .avatar-wrapper {
-  text-align: center;
+    text-align: center;
 }
 
 .avatar {
-  border-radius: 50%;
-  display: inline-block;
-  height: 100%;
-  margin: 0;
-  max-width: 172px;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    max-width: 172px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 @media (min-width: 48rem) and (min-height: 690px) {
-  .avatar {
-    max-width: 258px;
-  }
+    .avatar {
+        max-width: 258px;
+    }
 }
 
 @media (min-width: 58rem) and (min-height: 780px) {
-  .avatar {
-    max-width: 100%;
-  }
+    .avatar {
+        max-width: 100%;
+    }
 }
 
 .sidebar-about h1 {
-  margin-bottom: 1.2rem;
-  font-size: 1.65rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.65rem;
 }
 
 .lead {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .description {
-  display: none;
+    display: none;
 }
 
 .sidebar-nav {
-  margin-bottom: .65rem;
+    margin-bottom: .65rem;
 }
 
 .sidebar-nav-item {
-  display: inline;
+    display: inline;
 }
 
 .sidebar-nav-links {
-  margin-left: -4px;
-  margin-top: .9rem;
+    margin-left: -4px;
+    margin-top: .9rem;
 }
 
 .sidebar-nav-links a {
-  display: inline-block;
-  margin-right: 0;
+    display: inline-block;
+    margin-right: 0;
 }
 
 @media (min-width: 58em) {
-  .sidebar-nav-links a {
-    margin-right: .44rem;
-  }
+    .sidebar-nav-links a {
+        margin-right: .44rem;
+    }
 }
 
 .sidebar-nav-links a:hover {
-  background-color: #505050;
-  border-radius: 6px;
+    background-color: #505050;
+    border-radius: 6px;
 }
 
 .sidebar-nav-links a img {
-  height: 37px;
-  margin: 0;
-  padding: 4px;
-  width: 37px;
+    height: 37px;
+    margin: 0;
+    padding: 4px;
+    width: 37px;
 }
 
 @media (min-width: 58em) {
-  .sidebar-nav-links a img {
-    height: 38px;
-    width: 38px;
-  }
+    .sidebar-nav-links a img {
+        height: 38px;
+        width: 38px;
+    }
 }
 
 .copyright {
-  clear: both;
+    clear: both;
 }
 
 .version {
-  font-size: 12px;
-  margin-bottom: .75rem;
+    font-size: 12px;
+    margin-bottom: .75rem;
 }
 
 /* Body Content */
 
 .content {
-  max-width: none;
-  padding-top: 1.5rem;
-  padding-bottom: .5rem;
+    max-width: none;
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
 }
 
 @media (min-width: 48em) {
-  .content {
-    margin-right: .8rem;
-    padding-top: 2.5rem;
-  }
+    .content {
+        margin-right: .8rem;
+        padding-top: 2.5rem;
+    }
 }
 
 @media (min-width: 64em) {
-  .content {
-    margin-right: 2.8rem;
-  }
+    .content {
+        margin-right: 2.8rem;
+    }
 }
 
 .container {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 @media (min-width: 48em) {
-  .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-.pagination {
-  margin-top: -.5rem;
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 /* Posts */
 
 .post {
-  margin-bottom: 3em;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
-@media (min-width: 48em) {
-  .post {
-    margin-bottom: 4em;
-  }
+.post:first-child {
+    margin-top: 0;
 }
 
 blockquote {
-  background-color: #FCFCFC;
-  padding: .7rem 1.25rem .9rem 1.25rem;
+    background-color: #FCFCFC;
+    padding: .7rem 1.25rem .9rem 1.25rem;
 }
 
 blockquote code {
-  background-color: #E9E9E9;
+    background-color: #E9E9E9;
 }
 
 img {
-  margin: .5rem 0 1rem 0;
+    margin: .5rem 0 1rem 0;
 }
 
 abbr[title] {
-  border-bottom-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
 }
 
 h2, h3 {
-  margin-top: 2rem;
-  margin-bottom: .75rem;
+    margin-top: 2rem;
+    margin-bottom: .75rem;
 }

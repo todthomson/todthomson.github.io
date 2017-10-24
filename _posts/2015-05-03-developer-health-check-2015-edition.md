@@ -20,8 +20,8 @@ but I thought make the
 [__slide deck available on Speaker Deck__](https://speakerdeck.com/todthomson/developer-health-check-2015-edition)
 in any case.
 
-As always please drop me a
+Please drop me a
 [line](mailto:tod@todthomson.com)
 or a
 [tweet](https://twitter.com/todthomson)
-if you have any feedback.
+if you have any feedback or questions.

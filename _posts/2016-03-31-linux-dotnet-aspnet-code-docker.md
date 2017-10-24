@@ -8,7 +8,7 @@ description: |
 
 ![Microsoft ♥ Linux](/public/images/posts/3/nadella-loves-linux.jpg)
 
-Earlier this month I prepared and ran a workshop for
+Earlier this month I ran a workshop for
 [Readify Queensland](https://readify.net)
 on
 [Linux](https://en.wikipedia.org/wiki/Linux),

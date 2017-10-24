@@ -28,6 +28,8 @@ So maybe I got a little ahead of myself there so let's go back to the beginning.
 
 > If you like you can [jump straight to](#installing-prerequisites) the installation guide.
 
+<!--more-->
+
 ## History
 
 I've been telling myself for the better part of ten years that I **need** to have a blog.
