@@ -32,5 +32,4 @@ paginate: 5
 # Custom Variables
 version: 0.0.2
 
-github:
-  repo: https://github.com/todthomson
+github: [metadata]
