@@ -2,8 +2,8 @@
 markdown: kramdown
 highlighter: rouge
 
-# Gems
-gems: [jekyll-paginate]
+# Plugins
+plugins: [jekyll-paginate]
 
 # Permalinks
 permalink: pretty
@@ -13,6 +13,7 @@ title: "Tod Thomson's Blog"
 description: "A blog about my development experiences in Microsoft's ecosystem"
 tagline: 'The incoherent babbling of some random...'
 url: http://todthomson.com
+repository: "todthomson/todthomson.github.io"
 
 # Feed
 copyright: '2016 Tod Thomson'
