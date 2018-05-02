@@ -8,11 +8,11 @@ title: About Me
 </p>
 
 I'm currently working as a Lead Consultant with the amazing crew at
-[Readify](http://readify.net)
+[Readify](https://readify.net)
 so if you're in need of an individual or team who can deliver outstanding software with velocity and uncommon sense
-[contact us](http://readify.net/contact-us/)
+[contact us](https://readify.net/contact-us/)
 or if you're looking for an
-[awesome place to work](http://readify.net/careers/life-at-readify/)
+[awesome place to work](https://readify.net/careers/life-at-readify/)
 and you love to code then you should
 [knock on our door](https://knockknock.readify.net/).
 

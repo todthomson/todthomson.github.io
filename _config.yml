@@ -12,7 +12,7 @@ permalink: pretty
 title: "Tod Thomson's Blog"
 description: "A blog about my development experiences in Microsoft's ecosystem"
 tagline: 'The incoherent babbling of some random...'
-url: http://todthomson.com
+url: https://todthomson.com
 repository: "todthomson/todthomson.github.io"
 excerpt_separator: <!--more-->
 
